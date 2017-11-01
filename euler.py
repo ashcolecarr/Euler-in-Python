@@ -65,4 +65,5 @@ def isPandigital(n):
 
     return True
 
-
+def digitalSum(n):
+    return sum(map(lambda x: int(x), str(n)))
